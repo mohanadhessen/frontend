@@ -21,7 +21,7 @@ function handleSearch(e) {
   resultsSection.classList.add('hidden')
   const value = search_Input.value;
 
-  fetch(`https://backend-production-818d.up.railway.app/search/${encodeURIComponent(value)}`)
+  fetch(`https://backend-3ryi.onrender.com/search/${encodeURIComponent(value)}`)
     .then(response => response.json())
     .then(data => {
       latestData = data;
