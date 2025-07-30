@@ -86,7 +86,7 @@ search_Input.addEventListener("keypress", (e) => {
   }
 });
 
-fetch('https://backend-production-818d.up.railway.app/trending')
+fetch('https://backend-3ryi.onrender.com/trending')
   .then(response => response.json())
   .then(data => trending(data))
   .catch(error => console.log(error));
