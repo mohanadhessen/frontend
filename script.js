@@ -115,7 +115,7 @@ search_Input.addEventListener("keypress", (e) => {
 });
 
 // Load trending searches on page load
-fetch('https://backend-3ryi.onrender.com/trending')
+fetch('https://whxxvhxn3pmyhtc3w4xe2rzaee0bzoer.lambda-url.eu-north-1.on.aws/trending')
   .then(response => response.json())
   .then(data => trending(data))
   .catch(error => {
