@@ -133,8 +133,8 @@ function trending(trendingData) {
   for (let i = 0; i < maxItems; i++) {
     const trending_tag = document.createElement('span');
     trending_tag.className = 'trending-tag';
-    trending_tag.textContent = trendingData[i].product_name;
-    trending_tag.setAttribute('data-search', trendingData[i].product_name);
+    trending_tag.textContent = trendingData[i].term;
+    trending_tag.setAttribute('data-search', trendingData[i].term);
     trending_tags.append(trending_tag);
 
     trending_tag.addEventListener('click', () => {
