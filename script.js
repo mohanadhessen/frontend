@@ -29,7 +29,7 @@ function handleSearch(e) {
   
   const value = search_Input.value;
 
-  fetch(`https://backend-3ryi.onrender.com/search/${encodeURIComponent(value)}`)
+  fetch(`https://whxxvhxn3pmyhtc3w4xe2rzaee0bzoer.lambda-url.eu-north-1.on.aws/search/${encodeURIComponent(value)}`)
     .then(response => response.json())
     .then(data => {
       latestData = data;
