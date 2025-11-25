@@ -138,7 +138,7 @@ function trending(trendingData) {
     trending_tags.append(trending_tag);
 
     trending_tag.addEventListener('click', () => {
-      search_Input.value = trendingData[i].product_name;
+      search_Input.value = trendingData[i].term;
       handleSearch(new Event('submit'));
     });
   }
